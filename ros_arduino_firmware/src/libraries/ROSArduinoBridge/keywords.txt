@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map for Rover5 Project
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Dagu4Motor	KEYWORD1
+Encoder     KEYWORD1
+Rover5      KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setMotorDirection	KEYWORD2
+setSpeed		    KEYWORD2
+stopMotors		    KEYWORD2
+getCurrent		    KEYWORD2
+getSpeed		    KEYWORD2
+start               KEYWORD2
+forward             KEYWORD2
+backward            KEYWORD2
+left                KEYWORD2
+right               KEYWORD2
+stop                KEYWORD2
+
