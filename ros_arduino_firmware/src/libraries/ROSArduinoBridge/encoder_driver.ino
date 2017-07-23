@@ -73,7 +73,7 @@
   #include "Encoder.h"
   #include "Dagu4MotorPinListEncoders.h"
   Encoder motor1E(encA1, encA2); 
-  Encoder motor2E(encB1, encB2); 
+  Encoder motor2E(encC1, encC2); 
   
   /* Wrap the encoder reading function */
   long readEncoder(int i) {

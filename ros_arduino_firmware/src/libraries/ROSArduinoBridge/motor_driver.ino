@@ -77,8 +77,8 @@
   /* Wrap the drive motor set speed function */
   void setMotorSpeed(int i, int spd) {
     if (i == LEFT){
-      motor1.setMotorDirection(false);
-      motor2.setMotorDirection(true);
+      motor1.setMotorDirection(true);
+      motor2.setMotorDirection(false);
      
       motor1.setSpeed(spd);
       motor2.setSpeed(spd);      
@@ -87,8 +87,8 @@
     }
     else {
 
-      motor3.setMotorDirection(false);
-      motor4.setMotorDirection(true);
+      motor3.setMotorDirection(true);
+      motor4.setMotorDirection(false);
      
       motor3.setSpeed(spd);
       motor4.setSpeed(spd); 
